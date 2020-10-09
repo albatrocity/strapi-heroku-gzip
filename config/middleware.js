@@ -1,7 +1,6 @@
 module.exports = {
   timeout: 100,
   load: {
-    before: ["responseTime", "logger", "cors", "responses", "gzip"],
     after: ["router"]
   },
   settings: {
